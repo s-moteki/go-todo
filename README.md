@@ -9,18 +9,16 @@ Goの学習目的で作成しているTODOタスク管理アプリのAPI
 |  Go  |  言語  |
 |  MySQL  |  DB  |
 |  docker  |  コンテナ  |
-|  docker-compose  | な |  
+|  docker-compose  | コンテナツール |  
 |  gin  |  フレームワーク  |
 |  godotenv  | 環境変数 |
 
-### あとでやる  
-
+●あとでやる  
 ルーティング以外でもginを使う  
 ちゃんとinputなど分ける  
 バリデーション、エラーハンドリング  
-
-### やるやら  
-
+  
+●やるやら  
 gorm  
 ホットリロード  
 Go Modules  
@@ -39,7 +37,7 @@ dockerやらをインストール後
 3.コンテナ起動  
 > docker-compose up --build
 
-### るーてぃんぐ  
+## 動作確認  
 
 一覧取得
 > curl localhost:8080/todos  
