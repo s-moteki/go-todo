@@ -9,7 +9,7 @@ Goの学習目的で作成しているTODOタスク管理アプリのAPI
 |  Go  |  言語  |
 |  MySQL  |  DB  |
 |  docker  |  コンテナ  |
-|  docker-compose  | コンテナツール |  
+|  docker-compose  | マルチコンテナ |  
 |  gin  |  フレームワーク  |
 |  godotenv  | 環境変数 |
 
@@ -28,8 +28,8 @@ Go Modules
 
 dockerやらをインストール後
 
-1.クローン  
-> git clone https://github.com/s-moteki/go-todo.git
+1.落とす  
+> go get する
 
 2.移動  
 > cd go-todo
